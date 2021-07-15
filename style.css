@@ -1,0 +1,325 @@
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+/*-----------------
+ First Section Start
+ ----------------- */
+.background{
+    height: 677px;
+    width: 1300px;
+    border-radius: 0px;
+   background-color:#1763f1;
+}
+.menu .bar:hover{
+    letter-spacing: 2px;
+    transition: 0.5s;
+    color: #fff;
+    background-color:#1ebb10 ;
+    border-radius: 40px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 1000px;
+    height: 44px;
+    left: 90px;
+    top: 40px;
+ font-size: 16px;
+}
+.menu a{
+    color: #083813;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    flex: none;
+    transition: 0.2s ease-in-out;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 24px;
+    position: static;
+    width: 40px;
+    height: 10px;
+    background: #1ebb10;
+    margin: 0px 500px;
+    
+}
+.login a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left:10px ;
+}
+.out{
+   margin-left: 1000px;
+   margin-top: 10px;
+   position: absolute;
+
+}
+.out img{
+    height: 24px;
+    width: 24px;
+    left: 24px;
+}
+.head{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:90px;
+    text-align: left;
+}
+.head h1{
+
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left:10px;
+    top:80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #fff;
+    
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 24px;
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    left: 10px;
+    top: 420px;
+    background: #1ebb10;
+    border-radius: 50px;
+    align-items: center;
+}
+.button a{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 10px;
+    
+}
+.symbol{
+    position: absolute;
+    left: 20px;
+    right: 16px;
+    top: 430px;
+    bottom: 20%;
+}
+.symbol img{
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 50px;
+    top: 10px;
+    flex: none;
+    margin: 0px 130px;
+}
+.banner{
+    height: 438px;
+    width: 500px;
+    left: 1000px;
+    top: 153px;
+    border-radius: 0px;
+
+}
+.banner:hover img{
+    transform: scale(1.08) ;
+    transition: transform 1s ease-in-out;
+}
+.banner img{
+    position: absolute;
+    width: 556px;
+    height: 438px;
+    left: 600px;
+    top: 100px;
+}
+/* ---------------
+First Section end 
+--------------*/
+
+/* --------------
+Second Section Start
+------------------ */
+.album{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.frame {
+    width: 272px;
+    height: 370px;
+    box-shadow: 0px 0px 30px gray;
+    position: relative;
+    margin: 15px;
+}
+.photo img {
+    width: 250px;
+    height: 177px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-right: 12px;
+    justify-content: center;
+}
+.detail {
+    width: 260px;
+    padding-left: 5px;
+}
+.detail p{
+    text-align: justify; 
+}
+/* --------------
+Second Section End
+------------------ */
+
+
+/* --------------
+third section start
+-------------------- */
+.match{
+    margin-bottom: 100px;
+}
+.match img{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 600px;
+    top: 2400px;
+
+}
+.highlight h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left; 
+    margin-left: 100px; 
+    margin-top: 200px;  
+}
+
+.highlight p{
+    text-align: left; 
+    margin-left: 100px; 
+    font-size: 15px;
+}
+.watch{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 24px;
+        position: absolute;
+        width: 130px;
+        height: 25px;
+        left: 100px;
+        top: 2710px;
+        background: #1ebb10;
+        border-radius: 50px;
+
+    }
+    
+    .watch a{
+        font-size: 20px;
+        text-decoration: none;
+        line-height: 24px;
+        color: #fff;
+    }
+    .link{
+        position: absolute;
+        left: 102px;
+        top: 2722px;
+        bottom: 20%;
+    }
+    .link img{
+        position: static;
+        width: 24px;
+        height: 24px;
+        left: 120px;
+        top: 10px;
+        flex: none;
+        margin: 0px 130px;
+    }
+    /* ------------------
+    third section end
+    --------------------- */
+
+
+    /*------------------ 
+    footer section start
+    ------------------ */
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        position: static;
+        height: 50px;
+        width: 200px;
+      margin-top: 160px;
+   }
+   .sci{
+       text-align: center;
+   }
+   .sci i{
+       margin-left: 10px;
+       margin-top: 50px;
+       transition: 0.5s;
+       width: 30px;
+       height:30px;
+   }
+   .sci i:hover{
+        background: #fff;
+        transform: scale(1.5);
+   }
+   footer{
+       font-size: 15px;
+       text-align: center;
+   }
+   /*------------------ 
+    footer section end
+    ------------------ */
+.video{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+span{
+    color: royalblue;
+}
+@media screen and (max-width:688px) {
+    .menu{
+        width: 100%;
+    }
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner{
+        flex-direction: column;
+    }
+.album{
+    width: 100px;
+} 
+.photo  {
+    grid-template-columns: repeat(1, 1fr);
+}
+.photo{
+    flex-direction: column;
+}
+.highlight{
+    width: 100%;
+}
+.highlight{
+    grid-template-columns: repeat(1, 1fr);
+}
+.highlight{
+    flex-direction: column;
+}
+}
